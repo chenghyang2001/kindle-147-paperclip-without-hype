@@ -1,0 +1,100 @@
+{
+ "book": "K147",
+ "title": "Paperclip – Without the Hype（Ronald Geißler）",
+ "mode": "prompt-drill",
+ "window_layout": "HP1 螢幕 2 橫式左右兩半：左＝教練、右＝練習",
+ "practice_dir": "practice",
+ "units": [
+  {
+   "id": "ch01",
+   "num": 1,
+   "title": "從 AI 助理到 AI 公司",
+   "exercises": 2,
+   "file": "prompts/ch01.md"
+  },
+  {
+   "id": "ch02",
+   "num": 2,
+   "title": "Paperclip 是什麼與不是什麼",
+   "exercises": 2,
+   "file": "prompts/ch02.md"
+  },
+  {
+   "id": "ch03",
+   "num": 3,
+   "title": "@dotta 與炒作背後的故事",
+   "exercises": 2,
+   "file": "prompts/ch03.md"
+  },
+  {
+   "id": "ch04",
+   "num": 4,
+   "title": "架構總覽",
+   "exercises": 2,
+   "file": "prompts/ch04.md"
+  },
+  {
+   "id": "ch05",
+   "num": 5,
+   "title": "組織圖：目標如何抵達代理",
+   "exercises": 2,
+   "file": "prompts/ch05.md"
+  },
+  {
+   "id": "ch06",
+   "num": 6,
+   "title": "心跳、例行與排程",
+   "exercises": 2,
+   "file": "prompts/ch06.md"
+  },
+  {
+   "id": "ch07",
+   "num": 7,
+   "title": "治理、預算與成本控制",
+   "exercises": 2,
+   "file": "prompts/ch07.md"
+  },
+  {
+   "id": "ch08",
+   "num": 8,
+   "title": "自帶代理：你自己的員工",
+   "exercises": 2,
+   "file": "prompts/ch08.md"
+  },
+  {
+   "id": "ch09",
+   "num": 9,
+   "title": "你的第一家 AI 公司：逐步實作",
+   "exercises": 2,
+   "file": "prompts/ch09.md"
+  },
+  {
+   "id": "ch10",
+   "num": 10,
+   "title": "使用案例與自己的實驗",
+   "exercises": 2,
+   "file": "prompts/ch10.md"
+  },
+  {
+   "id": "ch11",
+   "num": 11,
+   "title": "限制、安全與法律",
+   "exercises": 2,
+   "file": "prompts/ch11.md"
+  },
+  {
+   "id": "ch12",
+   "num": 12,
+   "title": "生態系與競爭",
+   "exercises": 2,
+   "file": "prompts/ch12.md"
+  },
+  {
+   "id": "ch13",
+   "num": 13,
+   "title": "展望、結語與附錄",
+   "exercises": 2,
+   "file": "prompts/ch13.md"
+  }
+ ]
+}

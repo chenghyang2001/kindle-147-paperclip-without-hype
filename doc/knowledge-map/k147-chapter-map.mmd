@@ -1,0 +1,48 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","primaryColor":"#ffffff","primaryTextColor":"#000000","primaryBorderColor":"#000000","lineColor":"#333333","secondaryColor":"#ffffff","tertiaryColor":"#ffffff","clusterBkg":"#ffffff","clusterBorder":"#999999","edgeLabelBackground":"#ffffff","fontSize":"16px"}}}%%
+flowchart TB
+  subgraph P1["第一部：理念與定位"]
+    C1["第1章<br/>從AI助理到AI公司"]
+    C2["第2章<br/>Paperclip是什麼與不是什麼"]
+    C3["第3章<br/>dotta與炒作背後的故事"]
+  end
+  subgraph P2["第二部：架構與核心機制"]
+    C4["第4章<br/>架構總覽（12模組）"]
+    C5["第5章<br/>組織圖：誰做什麼"]
+    C6["第6章<br/>心跳與排程：何時做"]
+    C7["第7章<br/>治理預算：煞車"]
+    C8["第8章<br/>自帶代理：用誰"]
+  end
+  subgraph P3["第三部：實作與應用"]
+    C9["第9章<br/>第一家AI公司"]
+    C10["第10章<br/>使用案例與實驗"]
+  end
+  subgraph P4["第四部：風險、生態與展望"]
+    C11["第11章<br/>限制、安全與法律"]
+    C12["第12章<br/>生態系與競爭"]
+    C13["第13章<br/>展望與附錄"]
+  end
+  C1 -->|展開| C2
+  C2 -->|展開| C3
+  C2 -->|展開成12模組| C4
+  C4 -->|展開| C5
+  C4 -->|展開| C6
+  C4 -->|展開| C7
+  C4 -->|展開| C8
+  C5 -->|前提| C6
+  C6 -->|因果：心跳燒錢| C7
+  C7 -->|因果：模型價差| C8
+  C5 -->|整合| C9
+  C6 -->|整合| C9
+  C7 -->|整合| C9
+  C8 -->|整合| C9
+  C9 -->|展開| C10
+  C10 -->|因果：陷阱| C11
+  C8 -->|因果：繼承風險| C11
+  C11 -->|檢查清單| C13
+  C12 -->|綁原則不綁品牌| C13
+  C3 -.->|伏筆：HEARTBEATS.md| C6
+  C3 -.->|伏筆：單一維護者| C11
+  C7 -.->|修正：只是損害限制| C11
+  C2 -.->|對照：工具分類| C12
+  C1 -.->|呼應：所有者與監督者| C13
+  classDef default fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px;
